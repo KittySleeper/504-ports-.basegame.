@@ -1,0 +1,93 @@
+{
+	"version": "1.0.0",
+	"renderType": "multisparrow",
+	"Made_With": "the cigs Converter",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"scale": 1.5,
+	"name": "cawm-finn1",
+	"flipX": false,
+	"cameraOffsets": [
+		-130,
+		-2.55
+	],
+	"startingAnimation": "",
+	"singTime": 6.1,
+	"isPixel": false,
+	"assetPath": "characters/cawm-finn1",
+	"healthIcon": {
+		"offsets": [
+			0,
+			0
+		],
+		"id": "cawm-finn1",
+		"flipX": false,
+		"isPixel": false,
+		"scale": 1
+	},
+	"animations": [
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "Idle",
+			"flipX": false,
+			"looped": false,
+			"name": "idle"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-99,
+				-2
+			],
+			"frameRate": 24,
+			"prefix": "Left",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-102,
+				3
+			],
+			"frameRate": 24,
+			"prefix": "Down",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-102,
+				33
+			],
+			"frameRate": 24,
+			"prefix": "Up",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-91,
+				-14
+			],
+			"frameRate": 24,
+			"prefix": "Right",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT"
+		}
+	]
+}

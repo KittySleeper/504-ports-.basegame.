@@ -1,0 +1,167 @@
+{
+	"version": "1.0.0",
+	"renderType": "multisparrow",
+	"Made_With": "the cigs Converter",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"scale": 3.5,
+	"name": "ourpleguy",
+	"flipX": true,
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"startingAnimation": "idle",
+	"singTime": 6.1,
+	"isPixel": true,
+	"assetPath": "characters/ourpleguy",
+	"animations": [
+		{
+			"flipY": false,
+			"offsets": [
+				358,
+				184
+			],
+			"frameRate": 24,
+			"prefix": "down",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				358,
+				184
+			],
+			"frameRate": 24,
+			"prefix": "right",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				358,
+				184
+			],
+			"frameRate": 24,
+			"prefix": "up",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				358,
+				184
+			],
+			"frameRate": 24,
+			"prefix": "left",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "idle",
+			"flipX": false,
+			"looped": false,
+			"name": "idle"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				358,
+				184
+			],
+			"frameRate": 24,
+			"prefix": "missleft",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHTmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				358,
+				184
+			],
+			"frameRate": 24,
+			"prefix": "missright",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFTmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				358,
+				184
+			],
+			"frameRate": 24,
+			"prefix": "missdown",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWNmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				358,
+				184
+			],
+			"frameRate": 24,
+			"prefix": "missup",
+			"flipX": false,
+			"looped": false,
+			"name": "singUPmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				383,
+				267
+			],
+			"frameRate": 24,
+			"prefix": "dead",
+			"flipX": false,
+			"looped": false,
+			"name": "deathConfirm"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				383,
+				267
+			],
+			"frameRate": 24,
+			"prefix": "dead",
+			"flipX": false,
+			"looped": false,
+			"name": "deathLoop"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				383,
+				267
+			],
+			"frameRate": 24,
+			"prefix": "die",
+			"flipX": false,
+			"looped": false,
+			"name": "firstDeath"
+		}
+	]
+}

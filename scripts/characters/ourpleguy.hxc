@@ -1,0 +1,21 @@
+import funkin.graphics.adobeanimate.FlxAtlasSprite;
+import funkin.Paths;
+import flixel.FlxG;
+import funkin.play.character.MultiSparrowCharacter;
+import funkin.play.GameOverSubState;
+
+class OurpleCharacter extends MultiSparrowCharacter {
+	function new() {
+		super('ourpleguy');
+	}
+
+	override function playAnimation(name:String, restart:Bool, ignoreOther:Bool) {
+		if (name == "idle") {
+			super.playAnimation(name, restart, ignoreOther);
+			super.flipX = !super.flipX;
+		} else {
+			super.playAnimation(name, restart, ignoreOther);
+			super.flipX = true;
+		}
+	}
+}

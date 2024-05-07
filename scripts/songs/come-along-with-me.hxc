@@ -1,0 +1,63 @@
+import flixel.FlxG;
+import flixel.FlxSprite;
+import flixel.math.FlxBasePoint;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
+import flixel.util.FlxTimer;
+import funkin.Conductor;
+import funkin.graphics.adobeanimate.FlxAtlasSprite;
+import funkin.graphics.FunkinSprite;
+import funkin.modding.base.ScriptedFlxAtlasSprite;
+import funkin.Paths;
+import funkin.audio.FunkinSound;
+import funkin.play.GameOverSubState;
+import funkin.play.PlayState;
+import funkin.play.song.Song;
+import funkin.play.stage.StageProp;
+import funkin.save.Save;
+import funkin.audio.FunkinSound;
+import funkin.play.cutscene.VideoCutscene;
+import funkin.play.cutscene.CutsceneType;
+import funkin.play.PlayStatePlaylist;
+
+// We have to use FlxBasePoint in scripts because FlxPoint is inlined and not available in scripts
+
+class CAWMSong extends Song
+{
+	function new()
+	{
+		super('come-along-with-me');
+	}
+
+	public override function onCountdownStart(event:CountdownScriptEvent):Void {
+		super.onCountdownStart(event);
+	}
+
+	function onSongRetry(event:ScriptEvent)
+	{
+		super.onSongRetry(event);
+	}
+
+	public override function onSongEnd(event:CountdownScriptEvent):Void {
+		super.onSongEnd(event);
+	}
+
+	function onNoteHit(event:HitNoteScriptEvent)
+	{
+		super.onNoteHit(event);
+		if (PlayState.instance.currentStage == null) return;
+
+		switch (event.note.kind)
+		{
+		}
+	}
+
+	function onCreate(event:ScriptEvent):Void
+	{
+		super.onCreate(event);
+	}
+
+	function onUpdate(event:UpdateScriptEvent) {
+		super.onUpdate(event);
+	}
+}

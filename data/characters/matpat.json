@@ -1,0 +1,54 @@
+{
+    "version": "1.0.0",
+    "name": "matpat",
+    "renderType": "multisparrow",
+    "assetPath": "characters/matpat2",
+    "flipX": false,
+    "singTime": 5.7,
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "mat idle dance",
+            "offsets": [
+                0,
+                0
+            ]
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "mat left note",
+            "offsets": [
+                223,
+                -13
+            ]
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "mat down note",
+            "offsets": [
+                260,
+                -163
+            ]
+        },
+        {
+            "name": "singUP",
+            "prefix": "mat up note",
+            "offsets": [
+                20,
+                61
+            ]
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "mat right note",
+            "offsets": [
+                121,
+                -9
+            ]
+        }
+    ],
+    "startingAnimation": "idle",
+    "isPixel": false,
+    "scale": 1,
+    "Made_With": "the cigs Converter"
+}

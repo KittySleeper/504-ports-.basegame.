@@ -1,0 +1,59 @@
+{
+    "version": "1.0.0",
+    "name": "cawm-finn2",
+    "renderType": "multisparrow",
+    "assetPath": "characters/cawm-finn2",
+    "flipX": false,
+    "singTime": 6.1,
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "full-idle0",
+            "offsets": [
+                -99,
+                -100
+            ],
+            "looped": true
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "Left-full0",
+            "offsets": [
+                -150,
+                -199
+            ]
+        },
+        {
+            "name": "singUP",
+            "prefix": "Up0",
+            "offsets": [
+                -242,
+                39
+            ]
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "Right0",
+            "offsets": [
+                -464,
+                -97
+            ]
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "Down0",
+            "offsets": [
+                -194,
+                -407
+            ]
+        }
+    ],
+    "startingAnimation": "",
+    "isPixel": false,
+    "scale": 2,
+    "cameraOffsets": [
+		-130,
+		-2.55
+	],
+    "Made_With": "the cigs Converter"
+}
